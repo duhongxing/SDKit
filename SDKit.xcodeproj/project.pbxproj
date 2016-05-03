@@ -27,6 +27,7 @@
 		C4388D351CC761D600A6AF28 /* NSMutableArray+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4388D341CC761D600A6AF28 /* NSMutableArray+SDKit.m */; };
 		C4388D421CC78C0900A6AF28 /* UIFont+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4388D411CC78C0900A6AF28 /* UIFont+SDKit.m */; };
 		C4388D491CC78C5D00A6AF28 /* NSMutableAttributedString+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C4388D481CC78C5D00A6AF28 /* NSMutableAttributedString+SDKit.m */; };
+		C46E940E1CD81B7E00F8325E /* UIColor+SDKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C46E940D1CD81B7E00F8325E /* UIColor+SDKit.m */; };
 		C4B7A0301CC9E7D30098DF2B /* SDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B7A02F1CC9E7D30098DF2B /* SDLog.m */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +90,8 @@
 		C4388D411CC78C0900A6AF28 /* UIFont+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+SDKit.m"; sourceTree = "<group>"; };
 		C4388D471CC78C5D00A6AF28 /* NSMutableAttributedString+SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+SDKit.h"; sourceTree = "<group>"; };
 		C4388D481CC78C5D00A6AF28 /* NSMutableAttributedString+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+SDKit.m"; sourceTree = "<group>"; };
+		C46E940C1CD81B7E00F8325E /* UIColor+SDKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SDKit.h"; sourceTree = "<group>"; };
+		C46E940D1CD81B7E00F8325E /* UIColor+SDKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SDKit.m"; sourceTree = "<group>"; };
 		C4B7A02E1CC9E7D30098DF2B /* SDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLog.h; sourceTree = "<group>"; };
 		C4B7A02F1CC9E7D30098DF2B /* SDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -274,6 +277,7 @@
 		997675381CC525A60003E149 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C415A5721CD7605300CBEFEB /* UIColor */,
 				C4388D3F1CC78C0900A6AF28 /* UIFont */,
 				48E1151F1CC5D19A0047DD3C /* ViewToolsBasic */,
 				997675441CC525A60003E149 /* UIView */,
@@ -291,6 +295,15 @@
 				48E2FB9E1CC8D10E0089F1D4 /* UIView+SDAlertDotView.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		C415A5721CD7605300CBEFEB /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				C46E940C1CD81B7E00F8325E /* UIColor+SDKit.h */,
+				C46E940D1CD81B7E00F8325E /* UIColor+SDKit.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		C4388D3F1CC78C0900A6AF28 /* UIFont */ = {
@@ -450,6 +463,7 @@
 				48E2FBBE1CC8F0940089F1D4 /* DemoVC00.m in Sources */,
 				C4B7A0301CC9E7D30098DF2B /* SDLog.m in Sources */,
 				C4388D491CC78C5D00A6AF28 /* NSMutableAttributedString+SDKit.m in Sources */,
+				C46E940E1CD81B7E00F8325E /* UIColor+SDKit.m in Sources */,
 				48E2FB9F1CC8D10E0089F1D4 /* UIView+SDAlertDotView.m in Sources */,
 				48E2FBAB1CC8DDAC0089F1D4 /* SDKitDemoHomeViewController.m in Sources */,
 				48E2FBB61CC8DE1B0089F1D4 /* SDKit.xcdatamodeld in Sources */,
